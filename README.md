@@ -26,5 +26,5 @@ The software can be configured for one of four modes, depending on the awakeTime
 
   - Mode 3 - The processor is awakened by an interrupt or timer. It records the sensors, and then waits a fixed time to receive data requests from clients.   (Enable httpGet, awaketime = xx, wait a set time for data request, then go back to sleep.)  
 
-  - Mode 4 - The processor neveer sleeps. polls the sensors and reports on them or waits for a data request.  (sleepTime = 0, enable ESPNow, wifi, or httpget.)
+  - Mode 4 - The processor neveer sleeps. It polls the sensors and reports on them or waits for a data request.  (sleepTime = 0, enable ESPNow, wifi, or httpGet.)
 
